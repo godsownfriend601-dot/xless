@@ -1,7 +1,3 @@
-// Xless: The Serverlesss Blind XSS App.
-// Version: v1.2
-// Author: Mazin Ahmed <mazin@mazinahmed.net>
-
 const express = require("express");
 var bodyParser = require("body-parser");
 var cors = require("cors");

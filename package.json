@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazen160/xless.git"
+    "url": "git+https://github.com/godsownfriend601-dot/xless.git"
   },
   "keywords": [
     "XSS",
@@ -32,7 +32,7 @@
   "author": "Mazin Ahmed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mazen160/xless/issues"
+    "url": "https://github.com/godsownfriend601-dot/xless/issues"
   },
-  "homepage": "https://github.com/mazen160/xless"
+  "homepage": "https://github.com/godsownfriend601-dot/xless"
 }
